@@ -8,6 +8,12 @@ body {
   padding-top: 54px;
 }
 
+h1 {color: red;
+}
+
+h2 {color: blue;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
