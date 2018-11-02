@@ -8,13 +8,11 @@ body {
   padding-top: 44px;
 }
 
-
-
-
 h1 {color: #db0000;
 }
 
 p {color: #7b7b7b;
+  text: 14px;
   text-align:justify;
 }
 
