@@ -52,6 +52,8 @@ p {
 
 .connect:hover {
     background-color: #00ff00;
+    color: white;
+    text-decoration: none;
 }
 
 a {
@@ -91,9 +93,6 @@ footer {
     padding-top: 40px;
   }
 }
-
-
-
 
 
 .flip-box {
