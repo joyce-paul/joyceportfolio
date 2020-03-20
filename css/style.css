@@ -62,7 +62,6 @@ a {
 }
 
 
-
 #myBtn {
     color: #0f690f;
     cursor: pointer;
@@ -71,15 +70,12 @@ a {
 }
 
 
-
 #myBtn:hover {
 /*    background-color: #00ff00;*/
     color: #00ff00;
 /*    color: white;*/
     text-decoration: none;
 }
-
-
 
 
 .column:hover {
@@ -179,8 +175,8 @@ footer {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+  border: 1px solid #0f690f/*#888*/;
+  width: 50%;
 }
 
 /* The Close Button */
