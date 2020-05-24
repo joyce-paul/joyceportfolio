@@ -4,8 +4,22 @@ body {
 /*    overflow: hidden;*/
 }
 
+/*h1 {
+   font-size: 40px;
+   color: #800040;
+   margin: 0;
+   padding: 0 0 0 50px;
+}
+*/
 
-h1 {
+/*h1:hover {
+    color: #545454;
+    cursor: pointer;
+    text-decoration: none;
+}*/
+
+
+#myBtn {
    font-size: 40px;
    color: #800040;
    margin: 0;
@@ -13,16 +27,12 @@ h1 {
 }
 
 
-h1:hover {
+#myBtn:hover {
     color: #545454;
     cursor: pointer;
-}
-
-
-#myBtn:hover {
-    color: grey;
     text-decoration: none;
 }
+
 
 
 .container {
