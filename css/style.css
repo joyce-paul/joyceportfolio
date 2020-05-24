@@ -4,45 +4,47 @@ body {
 /*    overflow: hidden;*/
 }
 
+
 h1 {
-   font-size: 75px;
-   color: #85b485;
+   font-size: 40px;
+   color: #800040;
    margin: 0;
    padding: 0 0 0 50px;
 }
+
+
+h1:hover {
+    color: #545454;
+    cursor: pointer;
+}
+
+
+#myBtn:hover {
+    color: grey;
+    text-decoration: none;
+}
+
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 3rem;
+  padding: 0 2rem;
 }
 
-h2 {
-  font-weight: 200;
-  margin: 0.4rem;
-  font-size: 2.5rem;
-  color: grey;
-}
 
 h4 {
-   font-size: 20px;
-   color: black;
+   font-size: 16px;
+   color: #545454;
    margin: 0;
-   padding: 0 50px;
+   padding: 0 0 0 50px;
 }
 
-h5 {
-    font-weight: bold;
-    font-size: 20px;
-    color: #0f690f;
-    margin: 0;
-    padding: 0 50px;
-}
 
 div {
     padding: 0 50px;
 }
+
 
 p {
     color: #7b7b7b;
@@ -50,109 +52,44 @@ p {
     text-align: justify;
 }
 
-.connect:hover {
-    background-color: #00ff00;
-    color: white;
-    text-decoration: none;
-}
 
-a {
-/*    text-decoration: none;*/
-    color: #0f690f;
-}
-
-
-#myBtn {
-    color: #0f690f;
+#linkedin-contact:hover {
+    background-color: silver;
     cursor: pointer;
-    padding: 0 50px;
-    text-decoration: underline;
-}
-
-
-#myBtn:hover {
-/*    background-color: #00ff00;*/
-    color: #00ff00;
-/*    color: white;*/
     text-decoration: none;
 }
 
 
-.column:hover {
-  background-color: #b4d1b4;
+#github-contact:hover {
+    background-color: silver;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.img-fluid {
-/*    padding: 0 50px;*/
+
+#email-contact:hover {
+    background-color: silver;
+    cursor: pointer;
+    text-decoration: none;
 }
+
 
 .row {
   display: flex;
 }
+
 
 .column {
   flex: 33.33%;
   padding: 5px;
 }
 
+
 footer {
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
-    color: grey;
+    color: #800040;
 }
-
-.txt-type > .txt {
-  border-right: 0.2rem solid #777;
-}
-
-@media (min-width: 992px) {
-  body {
-    padding-top: 40px;
-  }
-}
-
-
-.flip-box {
-  background-color: transparent;
-  width: 100px;
-  height: 50px;
-  border: 1px solid #f1f1f1;
-}
-
-.flip-box-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-}
-
-.flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-box-front, .flip-box-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-box-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-box-back {
-  background-color: #555;
-  color: white;
-  transform: rotateY(180deg);
-}
-
-
-
 
 
 /* The Modal (background) */
@@ -170,6 +107,7 @@ footer {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+
 /* Modal Content */
 .modal-content {
   background-color: #fefefe;
@@ -179,17 +117,26 @@ footer {
   width: 50%;
 }
 
+
 /* The Close Button */
 .close {
-  color: #00ff00/*#aaaaaa*/;
+  color: #800040;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
+
 
 .close:hover,
 .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 40px;
+  }
 }
