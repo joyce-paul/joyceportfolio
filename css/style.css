@@ -15,11 +15,11 @@ body {
    padding: 0 0 0 50px;
 }
 
-#myBtn:hover {
+/* #myBtn:hover {
     color: #545454;
     cursor: pointer;
     text-decoration: none;
-}
+} */
 
 .container {
   display: flex;
