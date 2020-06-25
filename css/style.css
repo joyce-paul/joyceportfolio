@@ -4,20 +4,9 @@ body {
 /*    overflow: hidden;*/
 }
 
-/*h1 {
-   font-size: 40px;
-   color: #800040;
-   margin: 0;
-   padding: 0 0 0 50px;
+.tagline {
+  font-size: 14px;
 }
-*/
-
-/*h1:hover {
-    color: #545454;
-    cursor: pointer;
-    text-decoration: none;
-}*/
-
 
 #myBtn {
    font-size: 40px;
@@ -26,22 +15,18 @@ body {
    padding: 0 0 0 50px;
 }
 
-
 #myBtn:hover {
     color: #545454;
     cursor: pointer;
     text-decoration: none;
 }
 
-
-
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
 }
-
 
 h4 {
    font-size: 16px;
@@ -50,18 +35,15 @@ h4 {
    padding: 0 0 0 50px;
 }
 
-
 div {
     padding: 0 50px;
 }
-
 
 p {
     color: #7b7b7b;
     font-size: 14px;
     text-align: justify;
 }
-
 
 #linkedin-contact:hover {
     background-color: silver;
@@ -76,18 +58,15 @@ p {
     text-decoration: none;
 }
 
-
 #email-contact:hover {
     background-color: silver;
     cursor: pointer;
     text-decoration: none;
 }
 
-
 .row {
   display: flex;
 }
-
 
 .column {
   flex: 33.33%;
@@ -102,47 +81,6 @@ footer {
 }
 
 
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-
-/* Modal Content */
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #0f690f/*#888*/;
-  width: 50%;
-}
-
-
-/* The Close Button */
-.close {
-  color: #800040;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 
 @media (min-width: 992px) {
