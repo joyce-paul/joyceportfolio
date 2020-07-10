@@ -21,6 +21,12 @@ body {
     text-decoration: none;
 } */
 
+
+.img-fluid {
+  border-color: grey;
+}
+
+
 .container {
   display: flex;
   flex-direction: column;
