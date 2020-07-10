@@ -29,8 +29,8 @@ body {
 }
 
 h4 {
-   font-size: 18px;
-   color: #545454;
+   /* font-size: 20px; */
+   color: #423d3d;
    margin: 0;
    padding: 0 0 0 50px;
 }
@@ -71,6 +71,14 @@ p {
 .column {
   flex: 33.33%;
   padding: 5px;
+}
+
+
+.desc {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  color: grey;
+  margin-top: 0;
 }
 
 
